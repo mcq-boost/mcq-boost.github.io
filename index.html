@@ -2,974 +2,771 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>MCQ Boost - Mobile App</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Iteck Multi-Purpose themeforest" />
+    <meta name="description" content="Iteck - Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Title  -->
+    <title>Emdad Aloun</title>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
-    rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/fav.png" title="Favicon" sizes="16x16" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- ====== bootstrap icons cdn ====== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
 
-  <!-- =======================================================
-  * Template Name: Bootslander
-  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- ====== font family ====== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/lib/all.min.css" />
+    <link rel="stylesheet" href="assets/css/lib/animate.css" />
+    <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
+    <link rel="stylesheet" href="assets/css/lib/lity.css" />
+    <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
+    <!-- ====== global style ====== -->
+    <link rel="stylesheet" href="assets/css/rtl_style.css" />
 </head>
 
-<body class="index-page">
+<body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- You can replace the text or use an actual image logo -->
-        <h1 class="sitename">MCQ Boost</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="privacy.html">Privacy policy</a></li>
-          <li><a href="terms-of-use.html">Terms of use</a></li>
-
-        
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
+    <!-- ====== start loading page ====== -->
+    <!-- <div id="preloader">
+    </div> -->
+    <!-- ---------- loader ---------- -->
+    <div id="preloader">
+        <div id="loading-wrapper" class="show">
+            <div id="loading-text"> <img src="assets/img/logo_loading.png" alt=""> </div>
+            <div id="loading-content"></div>
+        </div>
     </div>
-  </header>
-  <!-- End Header -->
+    <!-- ====== end loading page ====== -->
 
-  <main class="main">
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero section dark-background">
-      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
-
-      <div class="container">
-        <div class="row gy-4 justify-content-between">
-          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <!-- Replace with your own hero image -->
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-          </div>
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-in">
-            <h1>MCQ Boost — Your Ultimate E-Learning Companion</h1>
-            <p>
-              Whether you're a student striving for graduation success, preparing for competitive exams, or a professional
-              aiming to upskill for career advancement, MCQ Boost is your go-to **mobile application** for AI-powered,
-              personalized study materials. Enjoy **free chapters, quizzes, and courses** designed to help you succeed
-              with minimal effort and cost.
-            </p>
-            
-            <div class="d-flex">
-              <!-- Replace these buttons with your actual app download links -->
-              <!-- <a href="#download" class="btn-get-started me-2">Get it on Google Play</a> -->
-              <a href="#download">
-                <img src="assets/img/app-store.png" alt="Download on App Store">
+    <!-- ====== start navbar ====== -->
+    <nav class="navbar navbar-expand-lg style-17 position-absolute w-100">
+        <div class="container container-custom">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo_17.svg" alt="">
             </a>
-            </div>
-          </div>
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="#" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            الرئيسية
+                        </a>
+                        <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="index.html"> Landing Preview  </a></li>
+                            <li><a class="dropdown-item" href="home-it-solutions2.html"> Creative It Solutions  </a></li>
+                            <li><a class="dropdown-item" href="home-data-analysis.html"> Data Analysis </a></li>
+                            <li><a class="dropdown-item" href="home-app-landing.html"> App Landing </a></li>
+                            <li><a class="dropdown-item" href="home-saas-technology.html"> Saas Technology </a></li>
+                            <li><a class="dropdown-item" href="home-marketing-startup.html"> Marketing Startup </a></li>
+                            <li><a class="dropdown-item" href="home-it-solutions.html"> It Solution </a></li>
+                            <li><a class="dropdown-item" href="home-software-company.html"> Software Company </a></li>
+                            <li><a class="dropdown-item" href="home-digital-agency.html"> Digital Agency </a></li>
+                            <li><a class="dropdown-item" href="home-shop-modern.html"> Modern Shop </a></li>
+                        </ul>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            من نحن
+                        </a>
+                        <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="page-about.html">about</a></li>
+                            <li><a class="dropdown-item" href="page-services.html">services</a></li>
+                            <li><a class="dropdown-item" href="page-contact-2.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="page-404-2.html.html">404 error</a></li>
+                        </ul>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#system">
+                            الأنظمة
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our">
+                            خبراتنا
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testam">
+                            قالو عنا
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-contact.html">
+                            اتصل بنا
+                        </a>
+                    </li>
+                </ul>
+                <!--    <div class="nav-side">
+                    <div class="d-flex ps-4">
+                        <a href="#" class="search-icon me-5">
+                            <i class="bi bi-search"></i>
+                        </a>
+                        <div class="dropdown">
+                            <button
+                                class="icon-35 dropdown-toggle p-0 border-0 bg-transparent rounded-circle img-cover text-white"
+                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/img/lang.png" alt="">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">عربية</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
-      </div>
+    </nav>
+    <!-- ====== end navbar ====== -->
 
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path"
-            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
-          </path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg>
 
-    </section>
-    <!-- End Hero Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>About MCQ Boost</h3>
-            <h2>Powered by Generative AI, Designed for Success</h2>
-            <p>
-              MCQ Boost harnesses the power of AI to create tailored chapters, quizzes, and courses in seconds.
-              Perfect for learners of all backgrounds, from nursing to data science, our platform helps you
-              master skills quickly and affordably.
-            </p>
-            <a href="#" class="read-more">
-              <span>Read More</span>
-              <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <i class="bi bi-buildings"></i>
-                  <h3>Extensive Course Library</h3>
-                  <p>
-                    Explore a variety of topics—from English grammar and mechanical engineering to social work
-                    and beyond.
-                  </p>
+    <!-- ====== start header ====== -->
+    <header class="tc-header-st17">
+        <div class="container">
+            <div class="content">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7">
+                        <div class="info">
+                            <h6> <img src="assets/img/avatars.png" alt="" class="avts me-2"> <span class="txt"> الكثير من العملاء وثقو بنا </span> </h6>
+                            <h1> انطلق نحو عالم جديد <span class="fw-300"> للحداثة </span> و للابتكار </h1>
+                            <div class="text col-lg-11"> نحن شركة «إمداد العون» العالمية السعودية، مؤسسة رائدة في تسويق المنتجات و تطوير البرمجيات مفتوحة المصدر، تأسست بأيادي سعودية ذات كفاءة عالمية، نؤمن بأن توطين التكنولوجيا ليس خيارًا بل ضرورة، ونسعى إلى بناء منظومة تقنية متكاملة تسهم في تسريع التحول الرقمي ومواكبة التقدم العالمي والتحول للتعاملات الإلكترونية. </div>
+                            <!--<a href="#" class="butn bg-orange4 text-white rounded-pill mt-50"> <span> Get Started </span> </a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="imgs">
+                            <img src="assets/img/strategy.png" alt="">
+                            <img src="assets/img/3d-booth.png" alt="">
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-clipboard-pulse"></i>
-                  <h3>Real-Time Analytics</h3>
-                  <p>
-                    Our dashboard shows how you're progressing, helping you identify strengths and areas for
-                    improvement.
-                  </p>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-command"></i>
-                  <h3>Adaptive Learning</h3>
-                  <p>
-                    Personalized study materials adapt as you learn, so every quiz or chapter is relevant to
-                    your current knowledge level.
-                  </p>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-graph-up-arrow"></i>
-                  <h3>Certification Paths</h3>
-                  <p>
-                    Complete advanced paths to earn recognized certificates that can boost your resume and career.
-                  </p>
-                </div>
-              </div>
-              <!-- End Icon Box -->
-
+                
             </div>
-          </div>
-
         </div>
-      </div>
-    </section>
-    <!-- End About Section -->
+        <img src="assets/img/header_bg.png" alt="" class="bg">
+    </header>
+    <!-- ====== end header ====== -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features section">
-      <div class="container">
 
-        <div class="row gy-4">
-          <!-- Feature item -->
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="features-item">
-              <i class="bi bi-eye" style="color: #ffbb2c;"></i>
-              <h3><a href="" class="stretched-link">Smart Quizzes</a></h3>
-            </div>
-          </div>
-          <!-- End Feature Item -->
+    <!--Contents-->
+    <main>
 
-          <!-- Feature item -->
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="features-item">
-              <i class="bi bi-infinity" style="color: #5578ff;"></i>
-              <h3><a href="" class="stretched-link">Unlimited Topics</a></h3>
-            </div>
-          </div>
-          <!-- End Feature Item -->
 
-          <!-- Feature item -->
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="features-item">
-              <i class="bi bi-mortarboard" style="color: #e80368;"></i>
-              <h3><a href="" class="stretched-link">AI Study Plans</a></h3>
+        <!-- ====== start features ====== -->
+        <section class="tc-features-st17" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="feature-card wow fadeInUp" data-wow-delay="0.1s">
+                            
+                            <div class="info">
+                                <h6 class="fsz-24"> أنظمة  <span class="color-orange4"> تخطيط موارد المؤسسات </span> </h6>
+                                <div class="img">
+                                <img src="assets/img/ft_bg1.png" alt="">
+                            </div>
+                                
+                            </div>
+                            <img src="assets/img/ft_bg1.jpg" alt="" class="bg">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="feature-card pb-0 wow fadeInUp" data-wow-delay="0.2s">
+                            <h6 class="fsz-24"> البوابات  <span class="fst-italic fw-300"> والخدمات الإلكترونية </span> </h6>
+                            <div class="img">
+                                <img src="assets/img/ft1.png" alt="">
+                            </div>
+                            <img src="assets/img/ft_bg1.jpg" alt="" class="bg">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="feature-card dark-card wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="icon">
+                                <img src="assets/img/icons/ft2.svg" alt="">
+                            </div>
+                            <div class="img">
+                                <img src="assets/img/ft3.png" alt="">
+                            </div> 
+                            <div class="bars">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                              </div>
+                            <div class="info">
+                                <h6 class="fsz-24"> ادارة الحملات التسويقية </h6>
+                                <div class="text fs-14px pt-30 mt-30 border-top"> قيادة الحملات الاتصالية المتكاملة وإدارة المراكز الإعلامية وصنع الفارق بثقافة محلية </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="feature-card justify-content-start wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="icon-wrapper d-flex">
+                                <div class="icon">
+                                    <img src="assets/img/icons/ai.svg" alt="">
+                                </div>
+                                <h6 class="fsz-24 text-capitalize mt-2"> الأكشاك والمعارض التعريفية</h6>
+                            </div>
+                            <div class="info">
+                                <div class="text fs-14px pt-30 mt-30 border-top color-666"> تصميم وإدارة الأكشاك والمعارض التعريفية..  نطور المداخيل والأرباح و الظهور الاعلامي </div>
+                            </div>
+                            <img src="assets/img/ft_bg2.jpg" alt="" class="bg">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- End Feature Item -->
+        </section>
+        <!-- ====== end features ====== -->
 
-          <!-- Feature item -->
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="features-item">
-              <i class="bi bi-nut" style="color: #e361ff;"></i>
-              <h3><a href="" class="stretched-link">Industry Insights</a></h3>
-            </div>
-          </div>
-          <!-- End Feature Item -->
 
-          <!-- Additional placeholder features from the template -->
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="features-item">
-              <i class="bi bi-shuffle" style="color: #47aeff;"></i>
-              <h3><a href="" class="stretched-link">Cross-Platform</a></h3>
+        <!-- ====== start about ====== -->
+        <section class="tc-about-st17">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-6">
+                        <div class="main-img wow zoomIn" data-wow-delay="0.1s">
+                            <img src="assets/img/ab1.jpg" alt="" class="img-cover">
+                        </div>
+                        <div class="ab-cards">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="item wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="tag"> <span class="circle"></span> <span class="txt"> التسويق </span> </div>
+                                        <div class="cont mt-30">
+                                            <h6 class="fsz-24 text-uppercase"> إدارة وتصميم الاكشاك </h6>
+                                            <p class="fsz-14 color-666 mt-2"> وإدارة المعارض التعريفية - تطوير المداخيل </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="item wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="tag"> <span class="circle"></span> <span class="txt"> أنظمة ادارة المؤسسات </span> </div>
+                                        <div class="cont mt-30">
+                                            <h6 class="fsz-24 text-uppercase"> أنظمة فعالة و مركزية </h6>
+                                            <p class="fsz-14 color-666 mt-2"> امتلك بياناتك و ادر أعمالك بكل احترافية </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="info col-lg-10">
+                            <div class="section-head style-16">
+                                <h6 class="sub-title"> أنظمة و تسويق </h6>
+                                <h2> رواد التسويق وأنظمة ادارة المنشآت </h2>
+                            </div>
+                            <div class="text fs-16px color-666"> 
+
+نحن شركة «إمداد العون» العالمية السعودية، شركة رائدة في تسويق المنتجات و تطوير البرمجيات مفتوحة المصدر، تأسست بأيادي سعودية ذات كفاءة عالمية، نؤمن بأن توطين التكنولوجيا ليس خيارًا بل ضرورة، ونسعى إلى بناء منظومة تقنية متكاملة تسهم في تسريع التحول الرقمي ومواكبة التقدم العالمي والتحول للتعاملات الإلكترونية.
+                                    <br>
+                                    وانطلاقًا من رؤية المملكة 2030 التي جعلت من الابتكار والتحول الرقمي ركيزة أساسية للنمو والتنافسية، نعمل على تمكين الحلول البرمجية المحلية، وتطوير كفاءات وطنية قادرة على المنافسة عالميًا، بما يعزز مكانة المملكة كمركز تقني رائد في المنطقة والعالم.
+
+
+
+
+                             </div>
+                        </div>
+                        <div class="sub-img wow zoomIn" data-wow-delay="0.1s">
+                            <img src="assets/img/ab2.jpg" alt="" class="img-cover">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="features-item">
-              <i class="bi bi-star" style="color: #ffa76e;"></i>
-              <h3><a href="" class="stretched-link">Top Reviews</a></h3>
+            <img src="assets/img/about_bg.png" alt="" class="dots">
+        </section>
+        <!-- ====== end about ====== -->
+
+
+        <!-- ====== start portfolio ====== -->
+        <section class="tc-portfolio-st17" id="system">
+            <div class="container">
+                <div class="section-head style-16 mb-30 text-center">
+                    <h6 class="sub-title mx-auto"> الأنظمــــــة </h6>
+                    <h2> أنظمة ادارة موارد المنشآت </h2>
+                    <h6 class="sub-title mx-auto"> إمتلك بياناتك - امتلك نظامك - امتلك سيرفراتك </h6>
+                </div>
+                <div class="cards">
+                    <div class="row">
+                        <div class="col-lg-4 colmn">
+                            <a href="#" class="card-item wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="img">
+                                    <img src="assets/img/works/1.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h6> منصات التبرع الإلكترونية (الجهات الغير ربحية)</h6>
+                                    <p> نوفر منصات للتبرع الإلكتروني متكاملة مع أنظمة إدارة المستفيدين، كفالات، المتبرعين، التبرعات، الموظفين و أكشاك التبرع حيث تدعم جميع وسائل الدفع المحلية والعالمية (visa – apple pay – master card – mada – التحويل لحسابات الجمعية) و يتم إدارة جميع التبرعات من خلال نظام محاسبي عالمي و إدارة نقاط بيع او مبيعات متطورة و تستجيب لجميع متطلبات السوق السعودي مع إمكانية التعديل و التطوير المستمر، مع تصميم واجهات سهلة الاستخدام للمتبرعين، وتكامل مباشر مع أنظمة الجمعيات (موارد بشرية – مالية – خدمات المستفيدين – الكفالات – المشتريات و المخازن – التبرعات – المشاريع - البرامج) </p>
+                                </div>
+                            </a>
+                            <a href="#" class="card-item wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="img">
+                                    <img src="assets/img/works/2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h6> الخدمات اللوجستية</h6>
+                                    <p> نقدم أنظمة شاملة لإدارة عمليات التوريد و التخليص الجمركي  والنقل والشحن والتخزين، تشمل تتبع الشحنات لحظة بلحظة، إدارة الأساطيل والمستودعات، والربط مع شركات الشحن والجمارك، حيث صممت أنظمتنا لتقليل زمن التسليم، خفض التكاليف التشغيلية، وتحسين دقة التتبع والتقارير، بما يعزز كفاءة سلاسل الإمداد ورضا العملاء. </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 colmn">
+                            <a href="#" class="card-item wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="img">
+                                    <img src="assets/img/works/3.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h6> أنظمة تخطيط موارد المؤسسات (ERP)</h6>
+                                    <p> تطوير و تركيب أنظمة ERP لتوحيد العمليات الإدارية والتشغيلية في منظومة واحدة، تشمل المحاسبة، المبيعات نقاط بيع، الموارد البشرية، المخزون، والمشتريات، مشاريع، إدارة الاسطول، الحملات الاعلانية، الاستبيانات و أكثر من 300  نظام متنوعة. تتميز أنظمتنا بدعم ٧٦ لغة و منها اللغة العربية و مع إمكانية الربط بأي نظام خارجي ، مع مرونة عالية في قابلية للتخصيص حسب طبيعة كل منشأة. وتساعد هذه الحلول على رفع الكفاءة التشغيلية، تعزيز الرقابة المالية، وتقليل التكاليف على المدى الطويل. </p>
+                                </div>
+                            </a>
+                            <a href="#" class="card-item wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="img">
+                                    <img src="assets/img/works/4.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h6> أنظمة الاتصالات الإدارية والأرشفة</h6>
+                                    <p> صممنا أنظمة لتمكن المنشآت من إدارة كامل دورة المراسلات الواردة والصادرة بشكل إلكتروني، وتشمل الأنظمة خصائص التأشير، تتبع المعاملات، والربط بين الأقسام، مع نظام أرشفة مؤمنة للوثائق، تدعم التوقيع الرقمي والربط مع أنظمة إدارة الوثائق والبريد الرسمي، لتسهم الأنظمة في تقليل الورق، ورفع الكفاءة الإدارية، وتعزيز الحوكمة الداخلية و ضمان سرعة الاطلاع و الاستجابة للعمليات و الطلبات الداخلية و الخارجية وفق صندوق الصادر و الوارد الداخلي و الخارجي مع اخذ بعين الاعتبار إدارة الصلاحيات ودرجات السرية و خاصة التحكم في سير اجراء المعاملات حسب الرغبة و بدون تدخل برمجي وفق اعدادات النظام. </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 colmn">
+                            <a href="#" class="card-item wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="img">
+                                    <img src="assets/img/works/5.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h6> أنظمة إدارة الفنادق</h6>
+                                    <p> إدارة كاملة للحجوزات، الغرف، الطاولات، الفواتير، والربط مع أنظمة الدفع والمخزون، وتتيح الأنظمة تقارير تشغيلية دقيقة وتتكامل مع منصات الحجوزات العالمية،  </p>
+                                </div>
+                            </a>
+                            <a href="#" class="card-item wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="img">
+                                    <img src="assets/img/works/6.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <h6> الأنظمة التعليم والتدريب الإلكتروني </h6>
+                                    <p> توفر أنظمتنا التعليمية بيئة رقمية تفاعلية تدعم مختلف أساليب التعلم، سواء خضوري أو عن بعد، تشمل لوحة تحكم للمدربين، إدارة المحتوى التعليمي و الفيديوهات التدريبية او النقل الحي المباشر، التقييم الآلي، وتقارير الأداء الفردي والجماعي، حيث يتم التكامل مع منصات مثل Zoom وGoogle Classroom، إلى جانب أنظمة بصلاحيات مرنة، وقد صممنا الأنظمة لتناسب المؤسسات والمراكز التدريبية.
+اعداد و نشر الدورات التدريبية المجانية و المدفوعة، إدارة الدفعات و الاشتراكات، التسويق الإلكتروني، إدارة الفواتير و الاشتراكات
+ </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <h6> تواصل معنا من خلال القنوات التالية </h6>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="social-icons text-lg-end">
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-whatsapp"></i> </a>
+                                <a href="#"> <i class="fab fa-tiktok"></i> </a>
+                                <a href="#"> <i class="fab fa-snapchat-ghost"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="features-item">
-              <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
-              <h3><a href="" class="stretched-link">User-Friendly</a></h3>
+            <img src="assets/img/work_shap1.png" alt="" class="shap1">
+            <img src="assets/img/section_foot.png" alt="" class="foot-shap">
+        </section>
+        <!-- ====== end portfolio ====== -->
+
+
+        <!-- ====== start process ====== -->
+        <section class="tc-process-st17" id="our">
+            <div class="container">
+                <h2 class="lg-title"> انطلق معنا نحو إدارة متكاملة </h2>
+                <div class="cards">
+                    <div class="row gx-5">
+                        <div class="col-lg-3">
+                            <div class="process-card wow fadeInUp" data-wow-delay="0.1s">
+                                <span class="num"> 1 </span>
+                                <h4> إدارة مركزية للأعمال </h4>
+                                <div class="text"> تحكم بجميع عملياتك بسهولة ومرونة من مكان واحد. </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="process-card wow fadeInUp" data-wow-delay="0.2s">
+                                <span class="num"> 2 </span>
+                                <h4> أنظمة قابلة للتطوير </h4>
+                                <div class="text"> وسع قدراتك وأدر مواردك بذكاء وبساطة. </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="process-card wow fadeInUp" data-wow-delay="0.3s">
+                                <span class="num"> 3 </span>
+                                <h4> خفض التكاليف وزيادة الإنتاجية </h4>
+                                <div class="text"> أدوات فعالة ومعتمدة من هيئة الزكاة والضريبة والجمارك تعزز نجاحك. </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="process-card wow fadeInUp" data-wow-delay="0.4s">
+                                <span class="num"> 4 </span>
+                                <h4> الوصول في أي وقت وأي مكان</h4>
+                                <div class="text"> أنظمتنا متاحة على الويب وتطبيق الجوال لتبقى أعمالك بين يديك دائمًا. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
-            <div class="features-item">
-              <i class="bi bi-camera-video" style="color: #4233ff;"></i>
-              <h3><a href="" class="stretched-link">Video Tutorials</a></h3>
+        </section>
+        <!-- ====== end process ====== -->
+
+
+        <!-- ====== start choose ====== -->
+        <section class="tc-choose-st17">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="img">
+                            <img src="assets/img/ch_lins.png" alt="" class="rotate-center">
+                            <img src="assets/img/ch_circs.png" alt="" class="rotate-center reverse bubbles">
+                            <img src="assets/img/ch_icons.png" alt="" class="rotate-center icons">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="info">
+                            <div class="section-head style-16 mb-30">
+                                <h6 class="sub-title">  خبرتنا </h6>
+                                <h2> مجالات خبرتنا <span class="fw-normal color-orange4 fst-italic"> متعدد و في ازدياد </span> </h2>
+                            </div>
+                            <div class="text"> 
+
+                               <h2>أنظمة تخطيط موارد المؤسسات</h2> 
+يعتبر نظام odoo الشامل لتخطيط الموارد ERP من الأنظمة الأسرع تطورًا في العالم، بما لديه من تطبيقات تغطي جميع الاحتياجات، كما نفتخر بأننا شريك رسمي لأودو، مما يمكننا من تقديم حلول موثوقة ومرنة تعزز كفاءة الأعمال.
+
+<h2>البوابات والخدمات الإلكترونية</h2>
+نطور بوابات إلكترونية بالاعتماد على أحدث التقنيات وأنظمة إدارة المحتوى (CMS) مفتوحة المصدر، حيث تتكون من عدد من الخدمات الإلكترونية حسب متطلبات العميل، وتختلف الخدمات حسب النوع (معلوماتية، تفاعلية، وتكاملية) إضافة إلى أنظمتنا الخاصة بإدارة المستخدمين وصلاحياتهم بمستويات مرنة وآمنة.
+
+<h2>تطبيقات الجوال</h2>
+نطور تطبيقات جوال مبتكرة تعمل على مختلف أنظمة التشغيل (Android – iOS – React Native)، مع مراعاة دعم أكبر عدد ممكن من الأجهزة والشركات، كما نضمن تصاميم عصرية ومتجاوبة تتكيف مع أحجام الشاشات المختلفة لتقديم تجربة استخدام مميزة.
+
+<h2>الاستشارات والتحول للتعاملات الإلكترونية</h2>
+نقدم استشارات متخصصة في مجال التحول للتعاملات الإلكترونية، مستندين إلى خبرتنا الواسعة، وانطلاقًا من رؤية المملكة 2030 التي جعلت من التحول الرقمي ركيزة أساسية للتنمية والتنافسية.
+
+
+                             </div>
+                           
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
-            <div class="features-item">
-              <i class="bi bi-command" style="color: #b2904f;"></i>
-              <h3><a href="" class="stretched-link">Live Support</a></h3>
+        </section>
+        <!-- ====== end choose ====== -->
+
+
+        <!-- ====== start testimonials ====== -->
+        <section class="tc-testimonials-st17" id="testam">
+            <div class="container">
+                <div class="title-wrapper mb-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="section-head style-16">
+                                <h6 class="sub-title"> شهادات ... </h6>
+                                <h2> مذا قالو عنا </h2>
+                            </div>
+                        </div>
+                        <div class="arrows ms-lg-auto mt-5 mt-lg-0 mb-30">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-card">
+                                <div class="date fs-16px color-666">
+                                    <img src="assets/img/icons/comma.svg" alt="" class="comma me-2">
+                                    <span class="txt"> Jul 13, 2022 </span>
+                                </div>
+                                <div class="main-txt fs-14px color-666 my-4 lh-6"> تم تطوير المنصة المحاسبية بالوزارة لمراقبة العمليات المالية والتقارير المحاسبية للجمعيات وربطها بالمكاتب المحاسبية لحوكمة القطاع وكان ذلك عبر التعاون المشترك مع مؤسسة «إمداد العون» وكانت تجربة مكللة بالنجاح. </div>
+                                <div class="user-wrapper">
+                                    <div class="avatar">
+                                        <img src="assets/img/testi/1.jpg" alt="">
+                                    </div>
+                                    <div class="cont">
+                                        <h6> إبراهيم الحسيني </h6>
+                                        <small> مدير إدارة الحوكمة بوزارة الموارد البشرية والتنمية الاجتماعية </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-card">
+                                <div class="date fs-16px color-666">
+                                    <img src="assets/img/icons/comma.svg" alt="" class="comma me-2">
+                                    <span class="txt"> Jul 13, 2022 </span>
+                                </div>
+                                <div class="main-txt fs-14px color-666 my-4 lh-6"> تم تطوير المنصة المحاسبية بالوزارة لمراقبة العمليات المالية والتقارير المحاسبية للجمعيات وربطها بالمكاتب المحاسبية لحوكمة القطاع وكان ذلك عبر التعاون المشترك مع مؤسسة «إمداد العون» وكانت تجربة مكللة بالنجاح. </div>
+                                <div class="user-wrapper">
+                                    <div class="avatar">
+                                        <img src="assets/img/testi/1.jpg" alt="">
+                                    </div>
+                                    <div class="cont">
+                                        <h6> إبراهيم الحسيني </h6>
+                                        <small> مدير إدارة الحوكمة بوزارة الموارد البشرية والتنمية الاجتماعية </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-card">
+                                <div class="date fs-16px color-666">
+                                    <img src="assets/img/icons/comma.svg" alt="" class="comma me-2">
+                                    <span class="txt"> Jul 13, 2022 </span>
+                                </div>
+                                <div class="main-txt fs-14px color-666 my-4 lh-6"> تم تطوير المنصة المحاسبية بالوزارة لمراقبة العمليات المالية والتقارير المحاسبية للجمعيات وربطها بالمكاتب المحاسبية لحوكمة القطاع وكان ذلك عبر التعاون المشترك مع مؤسسة «إمداد العون» وكانت تجربة مكللة بالنجاح. </div>
+                                <div class="user-wrapper">
+                                    <div class="avatar">
+                                        <img src="assets/img/testi/1.jpg" alt="">
+                                    </div>
+                                    <div class="cont">
+                                        <h6> إبراهيم الحسيني </h6>
+                                        <small> مدير إدارة الحوكمة بوزارة الموارد البشرية والتنمية الاجتماعية </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testi-card">
+                                <div class="date fs-16px color-666">
+                                    <img src="assets/img/icons/comma.svg" alt="" class="comma me-2">
+                                    <span class="txt"> Jul 13, 2022 </span>
+                                </div>
+                                <div class="main-txt fs-14px color-666 my-4 lh-6"> تم تطوير المنصة المحاسبية بالوزارة لمراقبة العمليات المالية والتقارير المحاسبية للجمعيات وربطها بالمكاتب المحاسبية لحوكمة القطاع وكان ذلك عبر التعاون المشترك مع مؤسسة «إمداد العون» وكانت تجربة مكللة بالنجاح. </div>
+                                <div class="user-wrapper">
+                                    <div class="avatar">
+                                        <img src="assets/img/testi/1.jpg" alt="">
+                                    </div>
+                                    <div class="cont">
+                                        <h6> إبراهيم الحسيني </h6>
+                                        <small> مدير إدارة الحوكمة بوزارة الموارد البشرية والتنمية الاجتماعية </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
-            <div class="features-item">
-              <i class="bi bi-dribbble" style="color: #b20969;"></i>
-              <h3><a href="" class="stretched-link">Community Driven</a></h3>
+            <img src="assets/img/section_foot.png" alt="" class="foot-shap">
+        </section>
+        <!-- ====== end testimonials ====== -->
+
+
+        <!-- ====== start blog ====== -->
+        <section class="tc-blog-st17">
+            <div class="container">
+                <div class="section-head style-16 mb-4 text-center">
+                    <h6 class="sub-title mx-auto"> News And Blogs  </h6>
+                    <h2> Latest News & Trends </h2>
+                </div>
+                <div class="posts">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <a href="#" class="post-card wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="img">
+                                    <img src="assets/img/blog/1.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <div class="date-wrapper">
+                                        <span class="tag"> أنظمة أودو العالمية </span>
+                                        <span class="date"> 24 Jun 2024 </span>
+                                    </div>
+                                    <h5 class="title"> عملك بأكمله في منصة واحدة.
+بسيط، ذو كفاءة عالية، و بأقل التكاليف!  </h5>
+                                </div>
+                                <div class="tags">
+                                    <span class="tag"> odoo </span>
+                                    <span class="tag"> ERP أنظمة </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#" class="post-card wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="img">
+                                    <img src="assets/img/blog/2.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <div class="date-wrapper">
+                                        <span class="tag"> إدارة المعارض التعريفية </span>
+                                        <span class="date"> 13 Fev 2025 </span>
+                                    </div>
+                                    <h5 class="title"> ادارة و تصميم المعارض التعريفية قصد تطوير المداخيل و زيادة الارباح لتطوير العمل الخيري </h5>
+                                </div>
+                                <div class="tags">
+                                    <span class="tag"> التسويق </span>
+                                    <span class="tag"> التطوير </span>
+                                    <span class="tag"> الموارد </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="#" class="post-card wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="img">
+                                    <img src="assets/img/blog/3.jpg" alt="">
+                                </div>
+                                <div class="info">
+                                    <div class="date-wrapper">
+                                        <span class="tag"> ادارة نقاط البيع بكل سلاسة و بساطة </span>
+                                        <span class="date"> 02 Jan 2026 </span>
+                                    </div>
+                                    <h5 class="title"> العديد من الخدمات و المميزات في نظام ادارة نقاط البيع </h5>
+                                </div>
+                                <div class="tags">
+                                    <span class="tag"> نقاط البيع </span>
+                                    <span class="tag"> المستهدفات </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
-            <div class="features-item">
-              <i class="bi bi-activity" style="color: #ff5828;"></i>
-              <h3><a href="" class="stretched-link">Progress Tracking</a></h3>
+        </section>
+        <!-- ====== end blog ====== -->
+
+
+        <!-- ====== start instagram ====== -->
+        <section class="tc-instagram-st17">
+            <div class="instagram-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="item">
+                            <img src="assets/img/instagram/1.jpg" alt="" class="img-cover">
+                            <span class="icon"> <i class="fab fa-instagram"></i> </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="item">
+                            <img src="assets/img/instagram/2.jpg" alt="" class="img-cover">
+                            <span class="icon"> <i class="fab fa-instagram"></i> </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="item">
+                            <img src="assets/img/instagram/3.jpg" alt="" class="img-cover">
+                            <span class="icon"> <i class="fab fa-instagram"></i> </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="item">
+                            <img src="assets/img/instagram/4.jpg" alt="" class="img-cover">
+                            <span class="icon"> <i class="fab fa-instagram"></i> </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="item">
+                            <img src="assets/img/instagram/5.jpg" alt="" class="img-cover">
+                            <span class="icon"> <i class="fab fa-instagram"></i> </span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="item">
+                            <img src="assets/img/instagram/2.jpg" alt="" class="img-cover">
+                            <span class="icon"> <i class="fab fa-instagram"></i> </span>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
-            <div class="features-item">
-              <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
-              <h3><a href="" class="stretched-link">Anytime, Anywhere</a></h3>
+        </section>
+        <!-- ====== end instagram ====== -->
+
+
+    </main>
+    <!--End-Contents-->
+
+
+    <!-- ====== start footer ====== -->
+    <footer class="tc-footer-st17">
+        <div class="container">
+            <div class="row gx-0 justify-content-between">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="foot-info pe-lg-5">
+                        <a href="#" class="foot-logo">
+                            <img src="assets/img/logo_17.svg" alt="" class="logo">
+                        </a>
+                        <div class="text fs-16px color-999 my-3"> آدارة و تصميم و تسويق الاكشاك و المعارض التعريفية عبر أنظمة مركزية  ومتكاملة - كلها ملكا لك فقط </div>
+                        <h6> <a href="#" class="fs-16px fw-500 text-decoration-underline"> info@emdadaloun.com </a> </h6>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-sm-6">
+                    
+                </div>
             </div>
-          </div>
         </div>
-
-      </div>
-    </section>
-    <!-- End Features Section -->
-
-    <!-- ======= Stats Section ======= -->
-    <section id="stats" class="stats section light-background">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-emoji-smile"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Happy Clients</p>
+        <div class="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <small class="fs-16px color-999">
+جميع الحقوق محفوظة                            <a href="#" class="fw-bold text-decoration-underline text-dark">شركة امداد العون</a>
+                            2026
+                        </small>
+                    </div>
+                    
+                </div>
             </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-journal-richtext"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-headset"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-people"></i>
-            <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hard Workers</p>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
         </div>
-
-      </div>
-    </section>
-    <!-- End Stats Section -->
-
-    <!-- ======= Details Section ======= -->
-    <section id="details" class="details section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Details</h2>
-        <div><span>Check Our</span> <span class="description-title">Details</span></div>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container">
-
-        <!-- Features Item 1 -->
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/details-1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Learn On the Go</h3>
-            <p class="fst-italic">
-              MCQ Boost’s mobile-friendly design makes it easy to learn anywhere, anytime. No more being tied to
-              your desk or missing study time when you’re out.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i><span> Offline access available for premium subscribers.</span></li>
-              <li><i class="bi bi-check"></i><span> Quick quizzes ideal for commutes or short breaks.</span></li>
-              <li><i class="bi bi-check"></i><span> Smooth user interface optimized for all screen sizes.</span></li>
-            </ul>
-          </div>
-        </div>
-        <!-- End Features Item 1 -->
-
-        <!-- Features Item 2 -->
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/details-2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>Personalized Dashboard</h3>
-            <p class="fst-italic">
-              Track your progress with real-time insights and focus on where you need improvement. 
-            </p>
-            <p>
-              Whether you’re studying for the NCLEX RN, brushing up on grammar, or preparing for an interview in data
-              science, see exactly how far you've come and what's left to conquer.
-            </p>
-          </div>
-        </div>
-        <!-- End Features Item 2 -->
-
-        <!-- Features Item 3 -->
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/details-3.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7" data-aos="fade-up">
-            <h3>Certification Pathways</h3>
-            <p>
-              Many learners use MCQ Boost to earn certifications recognized by top employers. Dive deep into specialized
-              content and get credentials that matter.
-            </p>
-            <ul>
-              <li><i class="bi bi-check"></i><span> Show your expertise with advanced certificates.</span></li>
-              <li><i class="bi bi-check"></i><span> Increase your job prospects with industry-aligned curricula.</span></li>
-              <li><i class="bi bi-check"></i><span> Quickly verify your achievements online.</span></li>
-            </ul>
-          </div>
-        </div>
-        <!-- End Features Item 3 -->
-
-        <!-- Features Item 4 -->
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-            <img src="assets/img/details-4.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-            <h3>Community & Support</h3>
-            <p class="fst-italic">
-              Have questions or need guidance? MCQ Boost’s community and support channels help you stay motivated.
-            </p>
-            <p>
-              Interact with fellow learners, share tips, and get help from support specialists who understand the
-              challenges of self-paced online education.
-            </p>
-          </div>
-        </div>
-        <!-- End Features Item 4 -->
-
-      </div>
-
-    </section>
-    <!-- End Details Section -->
-
-  
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section dark-background">
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>MCQ Boost gave our team the perfect platform to learn new skills on-the-go. Their quizzes and
-                    study plans are top-notch!</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>The generative AI in MCQ Boost made it so easy to pick and choose the exact topics I needed for my
-                    design certification.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Great for on-the-go study sessions. Quick quizzes are super helpful in my busy schedule.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>MCQ Boost’s analytics let me see exactly how much I've improved in each area. It's been a huge
-                    confidence boost.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>The best part is the certification pathways. I got recognized certifications that really boosted
-                    my credibility!</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section>
-    <!-- End Testimonials Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <div><span>Check Our</span> <span class="description-title">Team</span></div>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Team Member -->
-
-        </div>
-
-      </div>
-    </section>
-    <!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <div><span>Check Our</span> <span class="description-title">Pricing</span></div>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <p class="description">Enjoy access to a rich library of chapters and quizzes at absolutely no cost.</p>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <a href="#download" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Basic quizzes & chapters</span></li>
-                <li><i class="bi bi-check"></i> <span>Limited analytics</span></li>
-                <li><i class="bi bi-check"></i> <span>Community support</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Unlimited quiz attempts</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Priority customer service</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Exclusive advanced content</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Certification access</span></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <p class="popular">Popular</p>
-              <h3>Premium Plan</h3>
-              <p class="description">
-                Unlock advanced quizzes, analytics, and unlimited attempts to accelerate your learning journey.
-              </p>
-              <h4><sup>$</sup>9.99<span> / month</span></h4>
-              <a href="#download" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>All Free Plan features</span></li>
-                <li><i class="bi bi-check"></i> <span>Advanced chapters & quizzes</span></li>
-                <li><i class="bi bi-check"></i> <span>Unlimited attempts</span></li>
-                <li><i class="bi bi-check"></i> <span>In-depth analytics</span></li>
-                <li><i class="bi bi-check"></i> <span>Certification pathways</span></li>
-                <li><i class="bi bi-check"></i> <span>Priority support</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Enterprise bulk discounts</span></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Yearly Plan</h3>
-              <p class="description">Ideal for institutions, businesses, or large teams needing multiple user access.</p>
-              <div class="pricing">
-                <span class="discount-badge" style="background: #ff4444; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; margin: 0 8px;">
-                  40% OFF
-                </span>
-                <h4><sup>$</sup>69<span> / year</span></h4>
-              </div>
-              <a href="#download" class="cta-btn">Contact Us</a>
-              <p class="text-center small">Custom solutions</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>All Premium Plan features</span></li>
-                <li><i class="bi bi-check"></i> <span>Bulk user management</span></li>
-                <li><i class="bi bi-check"></i> <span>Customization options</span></li>
-                <li><i class="bi bi-check"></i> <span>Dedicated account manager</span></li>
-                <li><i class="bi bi-check"></i> <span>Team-based analytics</span></li>
-                <li><i class="bi bi-check"></i> <span>Volume licensing discounts</span></li>
-                <li><i class="bi bi-check"></i> <span>Priority feature requests</span></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- End Pricing Section -->
-
-    <!-- ======= Faq Section ======= -->
-    <section id="faq" class="faq section light-background">
-      <div class="container-fluid">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
-            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Below are some quick answers to common questions about MCQ Boost. Need more help? Feel free to contact us!
-              </p>
-            </div>
-
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="faq-item faq-active">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Is MCQ Boost free to use?</h3>
-                <div class="faq-content">
-                  <p>
-                    Absolutely! The Free Plan gives you plenty of content to get started. You can opt for Premium or
-                    Enterprise to access advanced features.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-              <!-- End Faq item-->
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>How do I get certified?</h3>
-                <div class="faq-content">
-                  <p>
-                    Unlock our specialized certification paths by subscribing to Premium or above. Complete all required
-                    quizzes and chapters, and get an industry-recognized certificate.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-              <!-- End Faq item-->
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Is there a mobile version?</h3>
-                <div class="faq-content">
-                  <p>
-                    Yes! MCQ Boost is designed primarily for mobile devices, so you can learn and practice quizzes
-                    on-the-go. Check your app store for the latest version.
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>
-              <!-- End Faq item-->
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    <!-- End Faq Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <div><span>Check Our</span> <span class="description-title">Contact</span></div>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-            </div>
-            <!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div>
-            <!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@mcqboost.com</p>
-              </div>
-            </div>
-            <!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div>
-          <!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- End Contact Section -->
-
-  </main>
-  <!-- End Main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer dark-background">
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">MCQ Boost</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@mcqboost.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="#">AI-powered quizzes</a></li>
-            <li><a href="#">Personalized chapters</a></li>
-            <li><a href="#">Certification</a></li>
-            <li><a href="#">Community support</a></li>
-            <li><a href="#">Advanced analytics</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to stay updated with MCQ Boost’s latest features and promotions.</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form">
-              <input type="email" name="email">
-              <input type="submit" value="Subscribe">
-            </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MCQ Boost</strong> <span>All Rights Reserved</span></p>
-    </div>
-
-  </footer>
-  <!-- End Footer -->
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-    <i class="bi bi-arrow-up-short"></i>
-  </a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+    </footer>
+    <!-- ====== end footer ====== -->
+     
+
+    <!-- ====== start to top button ====== -->
+    
+    <!-- ====== end to top button ====== -->
+
+    <!-- ====== request ====== -->
+    <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/lib/wow.min.js"></script>
+    <script src="assets/js/lib/jquery.fancybox.js"></script>
+    <script src="assets/js/lib/lity.js"></script>
+    <script src="assets/js/lib/swiper.min.js"></script>
+    <script src="assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/js/lib/jquery.counterup.js"></script>
+    <!-- <script src="assets/js/lib/pace.js"></script> -->
+    <script src="assets/js/lib/scrollIt.min.js"></script>
+    <script src="assets/js/lib/gsap.min.js"></script>
+    <script src="assets/js/lib/matter.js"></script>
+    <script src="assets/js/lib/throwable.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 
